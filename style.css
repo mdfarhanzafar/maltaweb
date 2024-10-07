@@ -1,0 +1,379 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: white !important;
+}
+
+
+html, body {
+    padding: 5%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center; 
+    flex-direction: column; 
+  }
+  
+
+
+/* navbar  */
+
+
+#nav{
+    gap: 20%;
+
+}
+
+#logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: black !important;
+}
+
+
+#btn{
+    background-color: rgb(28, 42, 240);
+    color: white;
+}
+
+#btn3{
+
+   
+    background-color: rgb(28, 42, 240);
+    color: white;
+}
+
+
+
+    
+
+
+a{
+    color: rgb(8, 8, 8) !important;
+}
+
+/* featrye  */
+
+#ic{
+    background-color:rgb(63, 81, 181);
+    gap: 100px;
+    border-radius: 2%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ic media quari  */
+
+@media only  screen and ( max-width:600px) {
+    #ic{
+        background-color: white;
+        color: black;
+    }
+   
+#girl{
+    
+    display: none;
+    background-color: red;
+}
+          
+}
+
+#girl2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+@media only  screen and ( min-width:600px){
+    #girl2{
+        display: none;
+        
+
+    }
+}
+
+
+
+
+#hd{
+    font-size: 30px;
+    font-weight: 700;
+}
+#btn2{
+    background-color:rgb(225, 149, 8);
+    
+}
+
+#tel{
+    text-decoration: none;
+    color: white !important;
+    
+}
+
+#girl{
+    color: blue;
+    
+    padding-top: 60px;
+    padding-left: 50%;
+    height: 300px;
+
+/* girl media quari */
+
+
+
+  
+    
+}
+
+
+#cld{ 
+display: flex;
+justify-content: center;
+align-items: center;
+
+    padding: 1%;
+    gap: 2%;
+    
+    width: 50%;
+    border: solid red 3px;
+    border-radius: 8px;
+    background-color: rgb(15, 89, 238);
+    
+}
+
+
+/* office secction  */
+
+
+
+
+#star1{
+  
+border: solid 2px blue;
+border-radius: 4%;
+
+}
+
+#star2{
+    border: solid 2px blue;
+border-radius: 5%;
+}
+
+
+
+#star3{
+ border: solid 2px blue;
+ border-radius: 4%;
+ 
+
+}
+
+#circle{
+ 
+margin-right: -35px;
+margin-bottom: 8px;
+}
+
+#mem1{
+    color:blue;
+
+  
+
+}
+
+#mem2{
+    color: orange;
+}
+#mem3{
+    color: blue;
+}
+#mem4{
+    color: orange;
+  
+}
+
+#mem5{
+    color: rgb(4, 128, 230);
+}
+#mem6{
+    color: green;
+}
+#school{
+    
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#lc{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+border: solid 2px white;
+border-radius: 5%;
+}
+#map{
+ 
+    border-radius: 2%;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+#offercard{
+    border-radius: 8%;
+}
+
+#hvcard:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+}
+
+#is{
+    background-color: rgb(159, 200, 212);
+
+}
+#far{
+    padding-top: 60px;
+    padding-left: 50%;
+    height: 300px;
+  
+
+}
+#fxbar{
+    
+    
+        /* position: fixed;
+        top: 1;
+        width: 96%;
+        z-index: 1000; */
+        /* background-color: white;
+        background-color: rgb(145, 106, 183); */
+
+         
+    
+      
+}
+
+
+@media only  screen and ( max-width:500px){
+    #cl{
+        border: solid;
+       height: 200px;
+       width: 200px;
+       border-radius: 50% !important;
+    }
+  
+        
+    }
+
+
+
+
+
+
+/* about us  */
+
+
+#cl{
+
+    
+    border-radius: 5%;
+
+   
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+#cc{
+   
+}
+
+#coment{
+    border: solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+#lgm{
+    border: solid 1px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+
+
+}
+#tix{
+    color: rgb(16, 15, 15);
+    font-weight: 700;
+    text-shadow: -2px -2px 2px rgb(239, 16, 16);
+    
+}
+
+#cll{
+
+
+
+border-radius: 5%;
+
+   
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+
+#logo {
+   
+
+    animation: zoom 3s infinite;
+}
+
+@keyframes zoom {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+
+
+        #cl {
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50; /* Example color */
+            animation: zoom 3s infinite, fall 6s infinite;
+        }
+
+        @keyframes zoom {
+            0%, 100% {
+                transform: scale(1);
+                border-radius: 0%;
+            }
+            50% {
+                transform: scale(1.5);
+                border-radius: 50%;
+            }
+        }
+
+        @keyframes fall {
+            0%, 100% {
+                top: 0;
+            }
+            50% {
+                top: 300px; /* Adjust as needed */
+            }
+        }
